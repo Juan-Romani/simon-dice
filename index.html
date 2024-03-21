@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simón Dice | Juego</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  </head>
+  <body>
+    <main class="game">
+      <h1>Simón Dice | Juego</h1>
+      <div id="game-controls-element" class="game-controls" style="pointer-events: none;">
+        <div class="game-controls__wrapper">
+          <button class="game-controls__control" id="red-button"></button>
+          <button class="game-controls__control" id="green-button"></button>
+        </div>
+        <div class="game-controls__wrapper">
+          <button class="game-controls__control" id="blue-button"></button>
+          <button class="game-controls__control" id="yellow-button"></button>
+        </div>
+      </div>
+      <p id="message-to-user"></p>
+      <button id="start-game">
+        Comenzar
+      </button>
+    </main>
+
+    <audio id="sound">
+      <source src="ruta/a/tu/archivo/de/audio.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+    <script src="game-script.js"></script>
+  </body>
+</html>
